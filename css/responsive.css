@@ -1,0 +1,394 @@
+@media screen and (max-width: 768px){
+    header{
+        overflow: hidden;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    p{
+        font-size: 1.9vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+    .container{
+        padding: 9vw;
+    }
+   
+
+    /*NAV SECTION*/
+
+    .home a{
+        font-size: 4vw;
+    }
+
+
+    .nav-menu{
+        /* flex-direction: column; */
+        position: absolute;
+        display: block;
+        /* display: none; */
+        right: -44vw;
+        text-align: center;
+        top: 90%;
+        gap:3vh;
+        width: 40%;
+        transition: .2s linear;
+        background-color: rgba(0, 0, 0, 0.315);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+
+
+    }
+    .nav-menu.active{
+       right: 0;
+    }
+    .nav-menu li{
+        padding: 2vw;
+    }
+    nav{
+        padding: 3vh 3vw;
+    }
+    #menu-bar{
+        display: block;
+    }
+    nav button{
+        margin-right: 4rem;
+        font-size: 2vw;
+        padding: 1.4vh 2vw;
+    }
+    .drop{
+        /* right:0;
+        left: -12vw;
+        top: -12vh; */
+        position: inherit;
+        background-color: transparent;
+        width: auto;
+        animation: all .2s;
+        /* z-index: -1; */
+    }
+    .drop li{
+        padding:6px;
+        width: inherit;
+        background-color: transparent;
+        font-size: 4vw;
+    }
+    .main-drop li a{
+        color: white;
+    }
+    .main-drop:hover .drop{
+        padding-top: 1vw;
+        gap: 1vh;
+       
+    }
+    .main-drop{
+       
+        height: fit-content;
+    }
+    @keyframes all{
+        0%{
+            transform: translateY(-10px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    .last-down{
+        position: inherit;
+        background-color: transparent;
+    }
+
+    .drop-left:hover .last-down{
+        gap: 2vw;
+    }
+    
+
+    /* ABOUT SECTION*/
+    .about{
+        overflow: hidden;
+        padding: 5vw 0;
+    }
+    .about>div{
+        width: 100%;
+    }
+    .about img{
+        width: 240%;
+    }
+
+    /*WHY CHOOSE SECTION*/
+
+    .why-choose>div>div{
+        width: 100%;
+    }
+    .why-choose>p{
+        width: 90%;
+    }
+
+    /*MENU SECTION*/
+
+    .menu-box>div{
+        width: 99%;
+    }
+
+    /*SPECIAL DETAILS*/
+
+    .spl-detail>div{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .spl-detail>:nth-child(2){
+        width: 100%;
+        padding-top: 2vw;
+    }
+    .spl-detail a:hover{
+        background-color:  #ec8c54;
+        color: white;
+        border-right: none;
+    }
+    .special>p{
+        width: 90%;
+    }
+
+    /*EVENT SECTION*/
+    .event-main{
+        background-attachment: scroll;
+        height: 200vh;
+    }
+    .event>div>div{
+        width: 100%;
+        /* border: 2px solid; */
+    }
+    
+    /*BOOK TABLE*/
+
+    .table-form input{
+        width: 48%;
+    }
+
+    /*GALLARY*/
+
+    .gallary>div>div{
+        width: 33%;
+    }
+    
+    .gallary p{
+        width: 90%;
+    }
+
+    /*CHEFS SECTION*/
+
+    .chefs-main{
+        background-attachment: scroll;
+        height: 230vh;
+
+    }
+    .chefs-main>p{
+        width: 90%;
+    }
+    .chefs{
+        gap: 1rem;
+        row-gap: 6rem;
+    }
+    .chefs>div{
+        width: calc(50% - 1rem);
+    }
+
+
+    /*TESTOMONIAL*/
+
+    .testomonial>p{
+        width: 90%;
+    }
+    .testomonial img{
+        width: 10vw;
+    }
+      /* CONTACT DETAILS*/
+    .contact>p{
+        width: 90%;
+    }
+    .cont-detail{
+        padding: 4vw 10vw;
+    }
+    .cont-detail>div>div{
+        width: 50%;
+        padding: 1vw;
+    }
+    .cont-detail p{
+       font-size: 1.6vw;
+    }
+    .contact-form>div >input {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    p{
+        font-size:3.9vw;
+    }
+    h1{
+        font-size: 7vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    li{
+        font-size: 3vw;
+    }
+    .container{
+        padding: 3vw;
+    }
+
+    /*HEADER SECTION*/
+    
+    header{
+        height: 100vh;
+        background-position: center;
+    }
+    header>ul{
+        padding: 2vw;
+    }
+    .home a{
+        font-size: 5vw;
+        padding-left: 2vw;
+    }
+    /*NAV SECTION*/
+    .nav-menu{
+        width: 70%;
+        right: -73vw;
+    }
+
+    nav{
+        padding: 1vw;
+        top: 8vh;
+    }
+    nav button{
+        font-size: 3vw;
+        padding: 1.4vh 5vw;
+    }
+    nav>div ul a {
+        
+        padding:0;
+    }
+
+    /*CONTENT SECTION*/
+    .content>div{
+        width: 90%;
+    }
+
+    .content button{
+        padding: 3vw;
+        font-size: 3vw;
+    }
+    nav li{
+        font-size: 4vw;
+    }
+
+    /*MENU SECTION*/
+
+    .menu{
+        padding: 0;
+    }
+    .menu-box>div>p{
+        font-size: 3VW;
+    }
+      /*EVENT SECTION*/
+      .event-main{
+        height: 150vh;
+      }
+    .event-right>h2{
+        font-size: 5vw;
+    }
+    /* TABLE BOOK SECTION*/
+    .table{
+        padding: 10vw 3vw;
+    }
+    .table-form{
+        padding: 4vw;
+    }
+    .table-form input{
+        width:99%;
+        margin-top: 2vw;
+    }
+    .book-table button{
+        padding: 2vw;
+    }
+
+     /*GALLARY*/
+
+     .gallary>div>div{
+        width: 99%;
+    }  
+     
+    /*CHEFS SECTION*/
+
+    .chefs-main{
+        height: fit-content;
+        padding: 23vw 0;
+    }
+    .chefs>div{
+        width: calc(100% - 1rem);
+    }
+    .chef-detail>span{
+        font-size: 2vw;
+    }
+
+     /*TESTOMONIAL*/
+    .testomonial{
+        background-position: center;
+    }
+     .testomonial>p{
+        /* width: 90%; */
+        line-height: 1rem;
+    }
+    .testomonial img{
+        width: 25vw;
+    }
+    .testomonial>span{
+        font-size: 3vw;
+    }
+    .circle>i{
+        font-size: 3vw;
+    }
+    
+    /*CONATCT SECTION*/
+    .cont-detail>div>div{
+        width: 100%;
+        padding: 1vw;
+    }
+    .cont-detail p{
+        width: 100%;
+        font-size: 3.7vw;
+    }
+    .cont-detail i{
+        height: 30px;
+        width: 30px;
+        font-size: 5vw;
+    }
+    .contact-form button{
+        padding: 2vw;
+    }
+    /*FOTTER */
+    footer h2{
+        font-size: 6vw;
+    }
+
+
+
+}
+@media screen and (max-width:1024px) {
+    nav>div ul a{
+        padding: 11px;
+    }
+}
